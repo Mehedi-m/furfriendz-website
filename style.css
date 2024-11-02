@@ -28,5 +28,28 @@ body{
 .navLinks{
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    font-weight: 500;
+}
+
+.formMain{
+    width: 30%;
+    margin: auto;
+}
+.formH1{
+    text-align: center;
+}
+
+.formDiv{
+    margin: 20px 0;
+    font-size: large;
+    font-weight: 500;
+}
+
+.formBTN{
+    text-align: center;
+    padding: 5px 10px;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 2px;
 }
