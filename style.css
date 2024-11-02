@@ -67,4 +67,6 @@ body{
     padding: 7px 10px;
     color: #00712D;
     background-color: #B6FFA1;
+    border-radius: 5px;
+    font-weight: 500;
 }
