@@ -1,0 +1,32 @@
+body{
+    font-family: 'Fredoka';
+}
+
+.fredoka {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.imageIcon{
+    width: 150px;
+    height: 150px;
+}
+
+.mainDiv{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navLinks{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
