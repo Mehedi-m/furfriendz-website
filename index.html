@@ -23,12 +23,13 @@
                 <li>Home</li>
                 <li>My pets</li>
                 <li>Blog</li>
+                <li onclick="showPage('petCareCenters', ['loginPage', 'registerPage'])">Pet-Care Center</li>
                 <li>About Us</li>
             </ul>
         </div>
         <div>
             <ul class='navLinks cursor-pointer'>
-                <li onclick="showPage('loginPage','registerPage')">Login</li>
+                <li onclick="showPage('loginPage',['petCareCenters', 'registerPage'])">Login</li>
                 <li>My Cart</li> 
             </ul>
         </div>
@@ -141,13 +142,130 @@
       <p class="text-7xl font-semibold mt-8"> Login <br> here!</p>
       <div class="flex gap-8 mt-10">
       <p class="border-b-2 border-gray-500 w-fit text-xl cursor-pointer">login</p>
-      <p onclick="showPage('registerPage','loginPage')" class="border-b-2 border-gray-500 w-fit text-xl cursor-pointer">Register</p>
+      <p onclick="showPage('registerPage',['petCareCenters', 'loginPage'])" class="border-b-2 border-gray-500 w-fit text-xl cursor-pointer">Register</p>
       </div>
       <p class="border-b-2 border-gray-500 w-fit ml-2 mt-4">Term & Condition</p>
 
     </div>
 
 
+    </section>
+
+
+    <section id="petCareCenters" class="hidden">
+      <div class="font-page text-[#006769] pt-12 pb-28">
+        <div class="text-center font-semibold text-6xl mt-8">
+          <h1>Pet Care Centers</h1>
+        </div>
+        <hr class="w-3/5 border-dashed border-[#006769] mx-auto mt-8" />
+    
+        <div class="w-8/12 mx-auto flex mt-8 justify-between">
+    
+          <div class="bg-[#9DDE8B] w-[752px] rounded-md h-[423px]">
+            <img class="bg-[#9DDE8B] p-2 rounded-md w-full h-full object-cover" src="https://i.ibb.co.com/c2y24WJ/PetCare1.webp" alt="Furfriendz Care - Dhanmondi">
+          </div>
+    
+          <div>
+            <div class="space-y-3">
+              <div class="cursor-pointer duration-200 rounded-md bg-[#9DDE8B] hover:bg-[#006769] hover:text-white p-4">
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Center Name:</h1>
+                  <h2>Furfriendz Care - Dhanmondi</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">CAM ID:</h1>
+                  <h2>CAM01</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Location:</h1>
+                  <h2>Dhanmondi, Dhaka</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Status:</h1>
+                  <h2 class="text-green-500">Active</h2>
+                </div>
+              </div>
+    
+              <div class="cursor-pointer duration-200 rounded-md bg-[#9DDE8B] hover:bg-[#006769] hover:text-white p-4">
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Center Name:</h1>
+                  <h2>Furfriendz Care - Banani</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">CAM ID:</h1>
+                  <h2>CAM02</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Location:</h1>
+                  <h2>Banani, Dhaka</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Status:</h1>
+                  <h2 class="text-green-500">Active</h2>
+                </div>
+              </div>
+    
+              <div class="cursor-pointer duration-200 rounded-md bg-[#9DDE8B] hover:bg-[#006769] hover:text-white p-4">
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Center Name:</h1>
+                  <h2>Furfriendz Care - Uttara</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">CAM ID:</h1>
+                  <h2>CAM03</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Location:</h1>
+                  <h2>Uttara, Dhaka</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Status:</h1>
+                  <h2 class="text-red-500">Offline</h2>
+                </div>
+              </div>
+    
+              <div class="cursor-pointer duration-200 rounded-md bg-[#9DDE8B] hover:bg-[#006769] hover:text-white p-4">
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Center Name:</h1>
+                  <h2>Furfriendz Care - Gulshan</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">CAM ID:</h1>
+                  <h2>CAM04</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Location:</h1>
+                  <h2>Gulshan, Dhaka</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Status:</h1>
+                  <h2 class="text-green-500">Active</h2>
+                </div>
+              </div>
+    
+              <div class="cursor-pointer duration-200 rounded-md bg-[#9DDE8B] hover:bg-[#006769] hover:text-white p-4">
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Center Name:</h1>
+                  <h2>Furfriendz Care - Mirpur</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">CAM ID:</h1>
+                  <h2>CAM05</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Location:</h1>
+                  <h2>Mirpur, Dhaka</h2>
+                </div>
+                <div class="flex space-x-3">
+                  <h1 class="font-medium">Status:</h1>
+                  <h2 class="text-green-500">Active</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
     </section>
 
     
